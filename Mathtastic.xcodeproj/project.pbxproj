@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1801805B2503614E00AA07BB /* ScoreReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801805A2503614E00AA07BB /* ScoreReport.swift */; };
+		1803881B24315E060098E42F /* AbsoluteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803881A24315E060098E42F /* AbsoluteViewController.swift */; };
+		1803881D24315E1B0098E42F /* ExponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803881C24315E1B0098E42F /* ExponentViewController.swift */; };
+		1803881F24315E5E0098E42F /* PolynomialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803881E24315E5E0098E42F /* PolynomialsViewController.swift */; };
+		1803882124315F340098E42F /* FunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803882024315F340098E42F /* FunctionsViewController.swift */; };
+		1803882324315FCA0098E42F /* QuadraticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803882224315FCA0098E42F /* QuadraticViewController.swift */; };
+		180388252431601C0098E42F /* RadicalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180388242431601C0098E42F /* RadicalsViewController.swift */; };
+		18038827243160280098E42F /* RationalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18038826243160280098E42F /* RationalsViewController.swift */; };
+		18038829243160360098E42F /* TrigonometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18038828243160360098E42F /* TrigonometryViewController.swift */; };
+		1803882B243160450098E42F /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803882A243160450098E42F /* StatisticsViewController.swift */; };
+		180E2D9D24D67A2B0007EC2D /* ExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E2D9C24D67A2A0007EC2D /* ExplanationViewController.swift */; };
+		1834BC242484CB4A0085E073 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834BC232484CB4A0085E073 /* PopupViewController.swift */; };
+		1834BC26248627980085E073 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834BC25248627980085E073 /* EndViewController.swift */; };
+		186953F62431595800F26A8B /* ProportionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186953F52431595800F26A8B /* ProportionsViewController.swift */; };
+		186953F824315ABA00F26A8B /* LinearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186953F724315ABA00F26A8B /* LinearViewController.swift */; };
+		186953FA24315C8D00F26A8B /* SystemEquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186953F924315C8D00F26A8B /* SystemEquationsViewController.swift */; };
+		1879C09324E276AA00B6F053 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879C09224E276AA00B6F053 /* FirstScreen.swift */; };
+		1879C09524E2778700B6F053 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879C09424E2778700B6F053 /* LogInViewController.swift */; };
+		1879C09824E277E700B6F053 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879C09724E277E700B6F053 /* SignUpViewController.swift */; };
+		188181FD25069BB500AA2EA6 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188181FC25069BB500AA2EA6 /* LessonsViewController.swift */; };
+		18A02E0D24195C4F00812854 /* ArithmeticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A02E0C24195C4F00812854 /* ArithmeticViewController.swift */; };
+		18AF084A24307F32001E6BA6 /* EquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF084924307F32001E6BA6 /* EquationsViewController.swift */; };
+		18B0133923CC2590001C43FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0133823CC2590001C43FE /* AppDelegate.swift */; };
+		18B0133B23CC2590001C43FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0133A23CC2590001C43FE /* SceneDelegate.swift */; };
+		18B0133D23CC2590001C43FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0133C23CC2590001C43FE /* HomeViewController.swift */; };
+		18B0134023CC2590001C43FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B0133E23CC2590001C43FE /* Main.storyboard */; };
+		18B0134223CC2595001C43FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B0134123CC2595001C43FE /* Assets.xcassets */; };
+		18B0134523CC2595001C43FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B0134323CC2595001C43FE /* LaunchScreen.storyboard */; };
+		18B2707124E2864300764A77 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2707024E2864300764A77 /* Utilities.swift */; };
+		18B2707324E3064F00764A77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B2707224E3064F00764A77 /* GoogleService-Info.plist */; };
+		18BE5CFA243140BF00D9F3E8 /* InequalitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE5CF9243140BF00D9F3E8 /* InequalitiesViewController.swift */; };
+		18D13BB823DCEAAD00D6C0A1 /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13BB723DCEAAD00D6C0A1 /* TopicViewController.swift */; };
+		18E45743252F869F00F08E9E /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45742252F869F00F08E9E /* ResourcesViewController.swift */; };
+		18FFC1E9253397FF00BA5C9C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFC1E8253397FF00BA5C9C /* ContactViewController.swift */; };
+		1C78838CBEF86F6E409660CA /* Pods_LoginTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB34B0AE88E18A13EA1DDCB1 /* Pods_LoginTesting.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1801805A2503614E00AA07BB /* ScoreReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreReport.swift; sourceTree = "<group>"; };
+		1803881A24315E060098E42F /* AbsoluteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsoluteViewController.swift; sourceTree = "<group>"; };
+		1803881C24315E1B0098E42F /* ExponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponentViewController.swift; sourceTree = "<group>"; };
+		1803881E24315E5E0098E42F /* PolynomialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolynomialsViewController.swift; sourceTree = "<group>"; };
+		1803882024315F340098E42F /* FunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsViewController.swift; sourceTree = "<group>"; };
+		1803882224315FCA0098E42F /* QuadraticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticViewController.swift; sourceTree = "<group>"; };
+		180388242431601C0098E42F /* RadicalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadicalsViewController.swift; sourceTree = "<group>"; };
+		18038826243160280098E42F /* RationalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RationalsViewController.swift; sourceTree = "<group>"; };
+		18038828243160360098E42F /* TrigonometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrigonometryViewController.swift; sourceTree = "<group>"; };
+		1803882A243160450098E42F /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		180E2D9C24D67A2A0007EC2D /* ExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationViewController.swift; sourceTree = "<group>"; };
+		1834BC232484CB4A0085E073 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		1834BC25248627980085E073 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		186953F52431595800F26A8B /* ProportionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionsViewController.swift; sourceTree = "<group>"; };
+		186953F724315ABA00F26A8B /* LinearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearViewController.swift; sourceTree = "<group>"; };
+		186953F924315C8D00F26A8B /* SystemEquationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEquationsViewController.swift; sourceTree = "<group>"; };
+		1879C09224E276AA00B6F053 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		1879C09424E2778700B6F053 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		1879C09724E277E700B6F053 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		188181FC25069BB500AA2EA6 /* LessonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		18A02E0C24195C4F00812854 /* ArithmeticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticViewController.swift; sourceTree = "<group>"; };
+		18AF084924307F32001E6BA6 /* EquationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationsViewController.swift; sourceTree = "<group>"; };
+		18B0133523CC2590001C43FE /* Mathtastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathtastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B0133823CC2590001C43FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B0133A23CC2590001C43FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18B0133C23CC2590001C43FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18B0133F23CC2590001C43FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B0134123CC2595001C43FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B0134423CC2595001C43FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B0134623CC2595001C43FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B2707024E2864300764A77 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		18B2707224E3064F00764A77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18BE5CF9243140BF00D9F3E8 /* InequalitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InequalitiesViewController.swift; sourceTree = "<group>"; };
+		18D13BB723DCEAAD00D6C0A1 /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		18E45742252F869F00F08E9E /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		18FFC1E8253397FF00BA5C9C /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		54723FAF7EAC2A437DD06D06 /* Pods-LoginTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTesting.release.xcconfig"; path = "Target Support Files/Pods-LoginTesting/Pods-LoginTesting.release.xcconfig"; sourceTree = "<group>"; };
+		E1E3C758AC69E902481C1376 /* Pods-LoginTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTesting.debug.xcconfig"; path = "Target Support Files/Pods-LoginTesting/Pods-LoginTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		FB34B0AE88E18A13EA1DDCB1 /* Pods_LoginTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B0133223CC2590001C43FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C78838CBEF86F6E409660CA /* Pods_LoginTesting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120030A1963220B78B6259A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB34B0AE88E18A13EA1DDCB1 /* Pods_LoginTesting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1879C09924E277F400B6F053 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				1879C09724E277E700B6F053 /* SignUpViewController.swift */,
+				1879C09424E2778700B6F053 /* LogInViewController.swift */,
+				1879C09224E276AA00B6F053 /* FirstScreen.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		18B0132C23CC2590001C43FE = {
+			isa = PBXGroup;
+			children = (
+				18B0133723CC2590001C43FE /* Mathtastic */,
+				18B0133623CC2590001C43FE /* Products */,
+				5EF57FFD9523EB8E85AA1878 /* Pods */,
+				120030A1963220B78B6259A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18B0133623CC2590001C43FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B0133523CC2590001C43FE /* Mathtastic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B0133723CC2590001C43FE /* Mathtastic */ = {
+			isa = PBXGroup;
+			children = (
+				18B2707024E2864300764A77 /* Utilities.swift */,
+				18B0133823CC2590001C43FE /* AppDelegate.swift */,
+				18B0133A23CC2590001C43FE /* SceneDelegate.swift */,
+				18B0133C23CC2590001C43FE /* HomeViewController.swift */,
+				18D13BB723DCEAAD00D6C0A1 /* TopicViewController.swift */,
+				1801805A2503614E00AA07BB /* ScoreReport.swift */,
+				1879C09924E277F400B6F053 /* LogIn */,
+				18BE5CF824313F0000D9F3E8 /* View Controllers */,
+				18B0133E23CC2590001C43FE /* Main.storyboard */,
+				18B0134123CC2595001C43FE /* Assets.xcassets */,
+				18B0134323CC2595001C43FE /* LaunchScreen.storyboard */,
+				18B0134623CC2595001C43FE /* Info.plist */,
+				1834BC232484CB4A0085E073 /* PopupViewController.swift */,
+				180E2D9C24D67A2A0007EC2D /* ExplanationViewController.swift */,
+				1834BC25248627980085E073 /* EndViewController.swift */,
+				18B2707224E3064F00764A77 /* GoogleService-Info.plist */,
+				188181FC25069BB500AA2EA6 /* LessonsViewController.swift */,
+				18E45742252F869F00F08E9E /* ResourcesViewController.swift */,
+				18FFC1E8253397FF00BA5C9C /* ContactViewController.swift */,
+			);
+			path = Mathtastic;
+			sourceTree = "<group>";
+		};
+		18BE5CF824313F0000D9F3E8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18A02E0C24195C4F00812854 /* ArithmeticViewController.swift */,
+				18AF084924307F32001E6BA6 /* EquationsViewController.swift */,
+				18BE5CF9243140BF00D9F3E8 /* InequalitiesViewController.swift */,
+				186953F52431595800F26A8B /* ProportionsViewController.swift */,
+				186953F724315ABA00F26A8B /* LinearViewController.swift */,
+				186953F924315C8D00F26A8B /* SystemEquationsViewController.swift */,
+				1803881A24315E060098E42F /* AbsoluteViewController.swift */,
+				1803881C24315E1B0098E42F /* ExponentViewController.swift */,
+				1803881E24315E5E0098E42F /* PolynomialsViewController.swift */,
+				1803882024315F340098E42F /* FunctionsViewController.swift */,
+				1803882224315FCA0098E42F /* QuadraticViewController.swift */,
+				180388242431601C0098E42F /* RadicalsViewController.swift */,
+				18038826243160280098E42F /* RationalsViewController.swift */,
+				18038828243160360098E42F /* TrigonometryViewController.swift */,
+				1803882A243160450098E42F /* StatisticsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5EF57FFD9523EB8E85AA1878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1E3C758AC69E902481C1376 /* Pods-LoginTesting.debug.xcconfig */,
+				54723FAF7EAC2A437DD06D06 /* Pods-LoginTesting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B0133423CC2590001C43FE /* Mathtastic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B0134923CC2595001C43FE /* Build configuration list for PBXNativeTarget "Mathtastic" */;
+			buildPhases = (
+				A6F2A05BEE297B4BC510CA44 /* [CP] Check Pods Manifest.lock */,
+				18B0133123CC2590001C43FE /* Sources */,
+				18B0133223CC2590001C43FE /* Frameworks */,
+				18B0133323CC2590001C43FE /* Resources */,
+				33C0F45C54AB1234327E9C8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mathtastic;
+			productName = MathApp;
+			productReference = 18B0133523CC2590001C43FE /* Mathtastic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B0132D23CC2590001C43FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gauri Pala";
+				TargetAttributes = {
+					18B0133423CC2590001C43FE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 18B0133023CC2590001C43FE /* Build configuration list for PBXProject "Mathtastic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B0132C23CC2590001C43FE;
+			productRefGroup = 18B0133623CC2590001C43FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B0133423CC2590001C43FE /* Mathtastic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B0133323CC2590001C43FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0134523CC2595001C43FE /* LaunchScreen.storyboard in Resources */,
+				18B2707324E3064F00764A77 /* GoogleService-Info.plist in Resources */,
+				18B0134223CC2595001C43FE /* Assets.xcassets in Resources */,
+				18B0134023CC2590001C43FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33C0F45C54AB1234327E9C8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginTesting/Pods-LoginTesting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginTesting/Pods-LoginTesting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginTesting/Pods-LoginTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F2A05BEE297B4BC510CA44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginTesting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B0133123CC2590001C43FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0133D23CC2590001C43FE /* HomeViewController.swift in Sources */,
+				180E2D9D24D67A2B0007EC2D /* ExplanationViewController.swift in Sources */,
+				18B0133923CC2590001C43FE /* AppDelegate.swift in Sources */,
+				18BE5CFA243140BF00D9F3E8 /* InequalitiesViewController.swift in Sources */,
+				186953F824315ABA00F26A8B /* LinearViewController.swift in Sources */,
+				18A02E0D24195C4F00812854 /* ArithmeticViewController.swift in Sources */,
+				1803881B24315E060098E42F /* AbsoluteViewController.swift in Sources */,
+				1803881D24315E1B0098E42F /* ExponentViewController.swift in Sources */,
+				18D13BB823DCEAAD00D6C0A1 /* TopicViewController.swift in Sources */,
+				1803882324315FCA0098E42F /* QuadraticViewController.swift in Sources */,
+				1834BC26248627980085E073 /* EndViewController.swift in Sources */,
+				186953F62431595800F26A8B /* ProportionsViewController.swift in Sources */,
+				1803882124315F340098E42F /* FunctionsViewController.swift in Sources */,
+				1803882B243160450098E42F /* StatisticsViewController.swift in Sources */,
+				18B2707124E2864300764A77 /* Utilities.swift in Sources */,
+				18AF084A24307F32001E6BA6 /* EquationsViewController.swift in Sources */,
+				18B0133B23CC2590001C43FE /* SceneDelegate.swift in Sources */,
+				18E45743252F869F00F08E9E /* ResourcesViewController.swift in Sources */,
+				186953FA24315C8D00F26A8B /* SystemEquationsViewController.swift in Sources */,
+				18038829243160360098E42F /* TrigonometryViewController.swift in Sources */,
+				1801805B2503614E00AA07BB /* ScoreReport.swift in Sources */,
+				180388252431601C0098E42F /* RadicalsViewController.swift in Sources */,
+				1879C09324E276AA00B6F053 /* FirstScreen.swift in Sources */,
+				1803881F24315E5E0098E42F /* PolynomialsViewController.swift in Sources */,
+				18038827243160280098E42F /* RationalsViewController.swift in Sources */,
+				1879C09524E2778700B6F053 /* LogInViewController.swift in Sources */,
+				1879C09824E277E700B6F053 /* SignUpViewController.swift in Sources */,
+				1834BC242484CB4A0085E073 /* PopupViewController.swift in Sources */,
+				188181FD25069BB500AA2EA6 /* LessonsViewController.swift in Sources */,
+				18FFC1E9253397FF00BA5C9C /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B0133E23CC2590001C43FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B0133F23CC2590001C43FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B0134323CC2595001C43FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B0134423CC2595001C43FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B0134723CC2595001C43FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B0134823CC2595001C43FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B0134A23CC2595001C43FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E3C758AC69E902481C1376 /* Pods-LoginTesting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 346FL8V8M8;
+				INFOPLIST_FILE = Mathtastic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauripala.Mathtastic;
+				PRODUCT_NAME = Mathtastic;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B0134B23CC2595001C43FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54723FAF7EAC2A437DD06D06 /* Pods-LoginTesting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CLANG_OPTIMIZATION_PROFILE_FILE[arch=*]" = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 346FL8V8M8;
+				INFOPLIST_FILE = Mathtastic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauripala.Mathtastic;
+				PRODUCT_NAME = Mathtastic;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B0133023CC2590001C43FE /* Build configuration list for PBXProject "Mathtastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B0134723CC2595001C43FE /* Debug */,
+				18B0134823CC2595001C43FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B0134923CC2595001C43FE /* Build configuration list for PBXNativeTarget "Mathtastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B0134A23CC2595001C43FE /* Debug */,
+				18B0134B23CC2595001C43FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B0132D23CC2590001C43FE /* Project object */;
+}
